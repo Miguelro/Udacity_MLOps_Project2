@@ -73,7 +73,9 @@ If we explore the content of the registered dataset we can see that the data is 
 
 ### Step 6: Consume Model Enpoints
 
-#### Screenshot 6.1: Swagger
+#### Screenshot 6.1: Output of model REST endpoint
+
+In this screenshot we can see that we have provided the endpoint with two inpunt datasets (green square), and it has returned the predictions for both cases (red square).
 
 ![Endpoint](./screenshots/Endpoint_output_step6.PNG)
 
@@ -93,7 +95,7 @@ If we explore the content of the registered dataset we can see that the data is 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-[Youtube_video](https://youtu.be/xIrkuYJ_aoI)
+[Youtube_video](https://youtu.be/xIrkuYJ_aoI?feature=shared&t=37)
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
