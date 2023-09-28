@@ -1,13 +1,9 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+#  Project: Operationalizing Machine Learning
 
-
-# Your Project Title Here
-
-*TODO:* Write an overview to your project.
 In this project we will perform a complete overview of the MLOps capabilities of AzureML tool, ranging from creating an AutoML experiment, publishing the best performing model through an endpoint, create a REST API documentation so as to know how to interact with the API, interact with the API, and finally encompass all this process in a pipeline that we can publish too.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+
 In the next diagram, it is summarized the steps followed throughoyt this project.
 
 ![Architectural-Diagram](./screenshots/Udacity_project2_architecture.png)
@@ -87,15 +83,44 @@ In this screenshot we can see that we have provided the endpoint with two inpunt
 
 ### Step 7: Create, Publish and Consume Pipeline
 
+#### Screenshot 7.1: Pipeline creation
+
+![Pipeline_creation](./screenshots/Pipeline_creation.PNG) 
+
+#### Screenshot 7.2: Pipeline endpoint
+
+![Pipeline_endpoint](./screenshots/Pipeline_endpoint.PNG)
 
 
+#### Screenshot 7.3: REST endpoint and status of ACTIVE
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![Pipeline_active](./screenshots/Published_pipeline_REST_ACTIVE.PNG) 
+
+#### Screenshot 7.4: Pipeline steps
+
+![Pipeline_steps](./screenshots/Pipeline_endpoint_outline.PNG)
+
+#### Screenshot 7.5: Notebook summary pipeline submission
+
+![Pipeline_submission](./screenshots/Pipeline_submission_summary.PNG)
+
+#### Screenshot 7.6: Scheduled runs
+
+![Pipeline_completed](./screenshots/Pipeline_endpoint_completed.PNG)
+
+*NOTE:* I do not know why the outputs of the notebook  were not recorded when submitted to github. However both in the video and the screenshots you can verify that the whole notebook was executed in order to create and publish the pipeline endpoint.
+
+#### Screenshot 7.8: Notebook execution
+
+![Notebook_execution](./screenshots/Notebook_execution.PNG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 [Youtube_video](https://youtu.be/xIrkuYJ_aoI?feature=shared&t=37)
+
+
+
+
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
