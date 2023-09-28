@@ -26,7 +26,7 @@ The project could be divided in two differentiable parts:
 
 ### Step 2: AutoML Experiment
 
-#### Screenshot 1: Registered dataset
+#### Screenshot 2.1: Registered dataset
 We registered the input data as `project_data`, since the original name was too long, and in this project we only use this that for the whole process and there won't be problems of missundestanding.
 
 ![Dataset_v1](./screenshots/Registered_dataset_v1.PNG)
@@ -35,17 +35,56 @@ If we explore the content of the registered dataset we can see that the data is 
 
 ![Dataset_v2](./screenshots/Registered_dataset_v2.PNG)
 
-#### Screenshot 2: Create AutoML Experiment
+#### Screenshot 2.2: Create AutoML Experiment
 
 ![AutoML_config](./screenshots/AutoML_config.PNG)
 
-#### Screenshot 3: AutoML Job Completed
+#### Screenshot 2.3: AutoML Job Completed
 
 ![AutoML_config](./screenshots/AutoML_run_Succesful.PNG)
 
-#### Screenshot 4: Best Model
+#### Screenshot 2.4: Best Model
 
-### Step 2: Best Model Deployment
+![Best_model_ranking](./screenshots/Best_model.PNG)
+
+![Best_model_details](./screenshots/Best_model_details.PNG)
+
+### Step 3: Best Model Deployment
+
+#### Screenshot 3: Best Model Endpoint
+
+![Best_model_endpoint](./screenshots/Best_model_endpoint.PNG)
+
+### Step 4: Enable Logging
+
+#### Screenshot 4.1: AppInsights logs
+
+![AppInsights](./screenshots/AppInsights_ON.PNG)
+
+![AppInsights_logs](./screenshots/AppInsights_logs.PNG)
+
+### Step 5: Swagger Documentation
+
+#### Screenshot 5.1: Swagger
+
+![Swagger](./screenshots/Swagger_run1.PNG)
+
+![Swagger_Example](./screenshots/Swagger_example_run.PNG)
+
+### Step 6: Consume Model Enpoints
+
+#### Screenshot 6.1: Swagger
+
+![Endpoint](./screenshots/Endpoint_output_step6.PNG)
+
+#### Screenshot 6.2: Benchmark [Optional] 
+
+![Benchmark](./screenshots/Benchmark_v1.PNG) 
+
+![Benchmark_tail](./screenshots/Benchmark_v2_tail.PNG) 
+
+### Step 7: Create, Publish and Consume Pipeline
+
 
 
 
