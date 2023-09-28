@@ -8,6 +8,7 @@ In this project we will perform a complete overview of the MLOps capabilities of
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+![starter_files\screenshots\Udacity_project2_architecture.png]
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
