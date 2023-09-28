@@ -8,7 +8,7 @@ In this project we will perform a complete overview of the MLOps capabilities of
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
-![Architectural-Diagram](./starter_files/screenshots/Udacity_project2_architecture.png)
+![Architectural-Diagram](./screenshots/Udacity_project2_architecture.png)
 
 #https://github.com/Miguelro/Udacity_MLOps_Project2/blob/main/starter_files/screenshots/Udacity_project2_architecture.png
 
