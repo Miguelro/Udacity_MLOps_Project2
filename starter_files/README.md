@@ -27,17 +27,17 @@ The project could be divided in two differentiable parts:
 ### Step 2: AutoML Experiment
 
 #### Screenshot 1: Registered dataset
-![Dataset_v1](./screenshots/Registered_dataset_v1.png)
+![Dataset_v1](./screenshots/Registered_dataset_v1.PNG)
 
-![Dataset_v2](./screenshots/Registered_dataset_v2.png)
+![Dataset_v2](./screenshots/Registered_dataset_v2.PNG)
 
 #### Screenshot 2: Create AutoML Experiment
 
-![AutoML_config](./screenshots/AutoML_config.png)
+![AutoML_config](./screenshots/AutoML_config.PNG)
 
 #### Screenshot 3: AutoML Job Completed
 
-![AutoML_config](./screenshots/AutoML_run_Succesful.png)
+![AutoML_config](./screenshots/AutoML_run_Succesful.PNG)
 
 
 
