@@ -27,17 +27,25 @@ The project could be divided in two differentiable parts:
 ### Step 2: AutoML Experiment
 
 #### Screenshot 1: Registered dataset
-![Dataset_v1](./screenshots/Registered_dataset_v1.png)
+We registered the input data as `project_data`, since the original name was too long, and in this project we only use this that for the whole process and there won't be problems of missundestanding.
 
-![Dataset_v2](./screenshots/Registered_dataset_v2.png)
+![Dataset_v1](./screenshots/Registered_dataset_v1.PNG)
+
+If we explore the content of the registered dataset we can see that the data is the same as the [Bankmarketing dataset](!https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
+
+![Dataset_v2](./screenshots/Registered_dataset_v2.PNG)
 
 #### Screenshot 2: Create AutoML Experiment
 
-![AutoML_config](./screenshots/AutoML_config.png)
+![AutoML_config](./screenshots/AutoML_config.PNG)
 
 #### Screenshot 3: AutoML Job Completed
 
-![AutoML_config](./screenshots/AutoML_run_Succesful.png)
+![AutoML_config](./screenshots/AutoML_run_Succesful.PNG)
+
+#### Screenshot 4: Best Model
+
+### Step 2: Best Model Deployment
 
 
 
