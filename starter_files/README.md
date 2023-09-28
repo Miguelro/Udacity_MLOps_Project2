@@ -20,7 +20,11 @@ The project could be divided in two differentiable parts:
 
 ### Step 1: Authentication
 
+I was using the Udacity Lab environment, so I skipped this step since I was not authorized to create a service principal.
+
 ### Step 2: AutoML Experiment
+
+In this step I created the AutoML experiment using the bank marketing dataset as input data. Then, a cluster was created so as to execute the models training process and finally we defined the Experiment as a classification task and defined the column `y` as the target variable.
 
 #### Screenshot 2.1: Registered dataset
 We registered the input data as `project_data`, since the original name was too long, and in this project we only use this that for the whole process and there won't be problems of missundestanding.
@@ -47,11 +51,15 @@ If we explore the content of the registered dataset we can see that the data is 
 
 ### Step 3: Best Model Deployment
 
+The best model founded by the AutoML experiment has been deployed using AzureML Studio.
+
 #### Screenshot 3: Best Model Endpoint
 
 ![Best_model_endpoint](./screenshots/Best_model_endpoint.PNG)
 
 ### Step 4: Enable Logging
+
+Once the model is deployed, AppInsights was enabled so as to monitor the model execution by storing its logs.
 
 #### Screenshot 4.1: AppInsights logs
 
@@ -61,6 +69,8 @@ If we explore the content of the registered dataset we can see that the data is 
 
 ### Step 5: Swagger Documentation
 
+Swagger allows us to easily document the API REST methods so as to facilitate its use. To install swagger, I have run serve.py script in port 8000 and swagger.sh in port 9000. Then, interact with the swagger instance and retrieve its response from localhost.
+
 #### Screenshot 5.1: Swagger
 
 ![Swagger](./screenshots/Swagger_run1.PNG)
@@ -68,6 +78,8 @@ If we explore the content of the registered dataset we can see that the data is 
 ![Swagger_Example](./screenshots/Swagger_example_run.PNG)
 
 ### Step 6: Consume Model Enpoints
+
+Thanks to the provided script `endpoint.py`, I have been able to interact with the model REST API. It has been necessary to update the score_url and Key.
 
 #### Screenshot 6.1: Output of model REST endpoint
 
@@ -82,6 +94,8 @@ In this screenshot we can see that we have provided the endpoint with two inpunt
 ![Benchmark_tail](./screenshots/Benchmark_v2_tail.PNG) 
 
 ### Step 7: Create, Publish and Consume Pipeline
+
+The information required in the Jupyter Notebook was updated (registered dataset, cluster name, keys and model name), so as to create and publish the pipeline using the Python SDK.
 
 #### Screenshot 7.1: Pipeline creation
 
@@ -123,4 +137,9 @@ In this screenshot we can see that we have provided the endpoint with two inpunt
 
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+As we mentioned in the first submission of this course, the dataset is quite imbalance, which makes our models to be biased towards the 'no' answer. In order to better evaluate the models I would suggest to use another performance metric such as `f1-score` or `AUC`, instead of accuracy, since these metrics take into account the performance of the model in each class separately. We could also try to downsample the majority class or oversample the minority class, so as to achieve a balanced dataset.
+
+Moreover, in the AutoML experiments all the data were provided and we do not really know what was the train/test strategy. We could also try to control this process dividing the data in 3 sets (Train, Validation and Test) and provide just two to the AutoML algorithm, setting the test set aside in order to evaluate model performance from our own, and choose the best model taking into account other metrics.
+
+Finally, we could also try to train our own ML models, so as to compare its performance with the ones that we obtained from AutoML experiment.
