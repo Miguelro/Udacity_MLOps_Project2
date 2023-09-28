@@ -16,7 +16,8 @@ The project could be divided in two differentiable parts:
 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
+
+In this section you can find the steps that I have followed throughout the project, including screenshots to facilitate your understanding.
 
 ### Step 1: Authentication
 
